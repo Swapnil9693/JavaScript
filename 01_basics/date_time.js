@@ -32,3 +32,14 @@ console.log(date5.toLocaleDateString());
 //new Date(year,month,day,hour)
 let date6=new Date(2024,6,15,4);
 console.log(date6.toLocaleString());
+
+// .getMonth()
+let date7=new Date();
+console.log(date7.getMonth());
+
+//.toLocaleString() object defining
+let date8=new Date("2024 6 15");
+console.log(date8.toLocaleString('default',{
+    weekday:'long',
+    month:'short'
+}));
