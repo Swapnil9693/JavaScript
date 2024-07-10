@@ -32,7 +32,16 @@ const obj3={
     age:35,
     occupation:"business",
     city:"rajasthan",
-    [mySym]:"rupees"
+    [mySym]:"rupees",
+    greeting:function()
+    {
+        console.log(`welcome to the object ${this.name}`);
+    }
 }
 console.log(obj3[mySym]);
 console.log(obj3);
+
+// Object.freeze() prevents objects from modifications
+Object.freeze(obj3);
+obj3.age=45;
+obj3.greeting();
