@@ -1,4 +1,4 @@
-const object1={
+let object1={
     name:"Swapnil",
     age:24,
     college:"SITS",
@@ -6,10 +6,11 @@ const object1={
     height:"5.8ft"
 }
 
-console.log(object1.name);//normal property access method using dot operator
+//console.log(object1.name);//normal property access method using dot operator
 
-const{name,age,city,college}=object1;// Object destructuring to access the object properties easily
-console.log(name);
+let {name,age,city,college}=object1;// Object destructuring to access the object properties easily
+object1.name="pratik";// name property reassigned a value
+console.log(name);// change in object's property doesnt affect destructured variables 
 console.log(age);
 console.log(city);
 
@@ -17,4 +18,5 @@ const{name:n,city:c,height:h}=object1;// we can also give aliases to properties 
 console.log(n);
 console.log(c);
 console.log(h);
+console.log(object1.name);
 
