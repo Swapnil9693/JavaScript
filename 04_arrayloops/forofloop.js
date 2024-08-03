@@ -2,7 +2,7 @@
 const array1=["swapnil","pratik","sandhya","premala","vasant"];
 for(const item of array1)
 {
-  //  console.log(item);
+    console.log(item);
     
 }
 
@@ -10,7 +10,7 @@ for(const item of array1)
 const String1="My name is swapnil dahiphale";
 for(const char of String1)
 {
-  //  console.log(char);
+   console.log(char);
     
 }
 
