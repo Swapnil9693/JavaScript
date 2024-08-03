@@ -2,8 +2,8 @@
 const obj1={name:"swapnil",age:24,college:"SITS",city:"pune"};
 for(const item in obj1)
 {
-   // console.log(item);
-   //console.log(obj1[item]);
+    console.log(item);
+   console.log(obj1[item]);
    
     
 }
