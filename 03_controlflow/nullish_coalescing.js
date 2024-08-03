@@ -11,3 +11,9 @@ let val3=null;
 let val4=val3??10;   // returned 10 as left operand  is null
 console.log(val4);
 
+//(3)
+let val5=undefined;
+let val6=val5??10??20;  // in this case it will return very first right operand.
+console.log(val6);
+
+
