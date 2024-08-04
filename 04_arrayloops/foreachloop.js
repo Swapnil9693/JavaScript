@@ -1,7 +1,7 @@
 const array1=[10,20,30,40,50,60];
-const array2=array1.forEach((num)=>
+const array2=array1.forEach((num,index,arr)=>
     {
-        console.log(num);
+        console.log(num,index,arr);
         
     }
 );
