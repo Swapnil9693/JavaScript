@@ -41,3 +41,13 @@ const result=movieList.filter((movie1)=>{
     );
 console.log(result);
 
+// passing a function as parameter in filter
+const array3=[10,20,30,40,50,60];
+function checkAdult (age)
+{
+    return age>20;
+}
+const array4=array3.filter(checkAdult);
+console.log(array4);
+
+
