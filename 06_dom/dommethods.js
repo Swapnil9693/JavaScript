@@ -31,7 +31,22 @@ a3.setAttribute('class','new-class-para');
 console.log(a3.getAttribute('class'));
 
 //(7) document.querySelector('.className').innerHTML="value";
-document.querySelector('.heading').innerHTML="Pratik Dahiphale";
+//document.querySelector('.heading').innerHTML="Pratik Dahiphale";
+
+
+//(8) document.querySelector('.className').innerText;
+let text=document.querySelector('span').innerText;
+let innertxt=document.querySelector('span').innerHTML
+console.log(text);
+console.log(innertxt);
+
+
+//(9) document.querySelector('.className').textContent ;
+let text1=document.querySelector('h1').textContent;
+console.log(text1);
+
+
+
 
 
 
