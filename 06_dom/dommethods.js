@@ -30,6 +30,9 @@ let a3=document.querySelector('#id-para');
 a3.setAttribute('class','new-class-para');
 console.log(a3.getAttribute('class'));
 
+//(7) document.querySelector('.className').innerHTML="value";
+document.querySelector('.heading').innerHTML="Pratik Dahiphale";
+
 
 
 
