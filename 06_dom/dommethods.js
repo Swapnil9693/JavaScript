@@ -11,4 +11,10 @@ for(let a=0;a<b.length;a++)
     b[a].style.backgroundColor="red";
 }
 
+//(3).querySelector() Method
+document.querySelector('.class-para').style.backgroundColor="lightblue"; // using class name
+document.querySelector('h1').style.backgroundColor="orange"; // using tag name
+document.querySelector('#id-para').style.backgroundColor="palegreen"; // using id name
+
+
 
