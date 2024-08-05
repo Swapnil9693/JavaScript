@@ -20,6 +20,16 @@
 let a1=document.querySelector('.class-para').getAttribute('id');
 console.log(a1); // output: id-para
 
-//document.querySelector('.class-para').getAttribute('id');
+//(5) document.querySelector('').className
+let a2=document.querySelector('#id-para').className;
+console.log(a2);
+
+
+//(6) document.querySelector('').setAttribute('','')
+let a3=document.querySelector('#id-para');
+a3.setAttribute('class','new-class-para');
+console.log(a3.getAttribute('class'));
+
+
 
 
