@@ -1,0 +1,32 @@
+.buttons
+{
+display: inline-block;
+height: 100px;
+width: 100px;
+border: solid;
+border-radius: 2px black;
+}
+p
+{
+font-size: 30px;
+}
+#yellow
+{
+background-color: yellow;
+}
+#grey
+{
+background-color: grey;
+}
+#red
+{
+background-color: red;
+}
+#lightblue
+{
+background-color: lightblue;
+}
+#pink
+{
+background-color: pink;}
+
