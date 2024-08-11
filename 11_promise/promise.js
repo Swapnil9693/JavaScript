@@ -1,3 +1,4 @@
+//(1) promise using then() and catch()
 const promiseOne= new Promise((resolve,reject)=>
     {
         setTimeout(function()
