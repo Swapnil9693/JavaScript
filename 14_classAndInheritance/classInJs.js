@@ -1,32 +1,24 @@
-class user{
-constructor(username)
-{
-    this.username=username;
-}
-logMe()
-{
-console.log(`The name of user is : ${this.username}`);
-
-}
-}
-class teacher extends user{
-    constructor(username,email,password)
-    {
-       super(username);
-       this.email=email;
-       this.password=password;
-
-      
-       
+class Person {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
     }
-    teacherInfo()
-    {
-        console.log(`The name of teacher is ${this.username}, email is ${this.email} and password is ${this.password}`);
+
+    // Method to introduce the person
+    introduce() {
+        console.log(`Hi, my name is ${this.name} and I am ${this.age} years old.`);
+    }
+
+    // Method to simulate a birthday
+    haveBirthday() {
+        this.age += 1;
+        console.log(`It's my birthday! I am now ${this.age} years old.`);
     }
 }
 
-const user1=new user("Swapnil");
-user1.logMe();
-const user2=new teacher("PRATIK","pvd@gmail","123");
-user2.teacherInfo();
-user2.logMe();
+// Creating an instance of the Person class
+const person1 = new Person("John", 30);
+
+// Calling methods on the instance
+person1.introduce();       // Output: Hi, my name is John and I am 30 years old.
+person1.haveBirthday();    // Output: It's my birthday! I am now 31 years old.
